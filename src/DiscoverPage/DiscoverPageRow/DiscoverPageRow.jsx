@@ -1,5 +1,5 @@
 import React from 'react'
-import ViewMoreButton from '../ViewMoreButton'
+import ViewMoreButton from '../../MoreButton/ViewMoreButton'
 import GameCard from './GameCard'
 
 import './DiscoverPageRow.css'

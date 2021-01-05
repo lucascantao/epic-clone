@@ -1,10 +1,10 @@
 import React from 'react'
 import './GameCard.css'
 
-function GameCard({title, price, thumb, company}) {
+function GameCard({title, price, thumb, company, small}) {
     return (
         <div className='GameCard'>
-            <div className="GameCard-Thumb">
+            <div className={`GameCard-Thumb ${small && 'small'}`}>
                 <img src={thumb} alt=""/>
             </div>
 

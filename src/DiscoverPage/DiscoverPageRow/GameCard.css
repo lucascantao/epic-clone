@@ -34,6 +34,11 @@
     margin-bottom: 18px;
 }
 
+.GameCard-Thumb.small {
+    height: 236px;
+    width: 175px;
+}
+
 .GameCard-Thumb img {
     height: 100%;
     width: 100%;

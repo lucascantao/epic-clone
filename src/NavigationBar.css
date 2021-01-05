@@ -9,7 +9,7 @@
     position: fixed;
     background: #333;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     z-index: 10;
 }
 

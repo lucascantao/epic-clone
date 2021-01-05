@@ -1,0 +1,50 @@
+.FilterCategory {
+    color: #ddd;
+    
+}
+
+.FilterCategory button > p {
+    font-size: 14px;
+}
+
+.FilterCategory button {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 236px;
+    background-color: #1a1a1a;
+    border: none;
+    outline: none;
+    color: #aaa;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 6;
+}
+
+.FilterCategory .category {
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 16px 0;
+}
+
+.FilterCategory .category:hover {
+    color: #ddd;
+}
+
+.FilterCategory button:hover {
+    cursor: pointer;
+    color: #ddd;
+}
+
+.FilterCategory button .ExpandIcon {
+    transition: all .3s;
+}
+
+.FilterCategory button .ExpandIcon.expanded {
+    transform: rotateZ(180deg);
+    transition: all .3s
+}

@@ -4,6 +4,8 @@ import NavigationBar from './NavigationBar'
 import StoreHeader from './StoreHeader'
 import DiscoverPage from './DiscoverPage/DiscoverPage.jsx'
 import FooterPage from './FooterPage'
+import HomePage from './HomePage/HomePage'
+import BrowsePage from './BrowsePage/BrowsePage'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -13,17 +15,19 @@ function App() {
       <Router >
         <NavigationBar />
         <Switch >
-
+          <Route exact path='/'>
+            <HomePage />
+          </Route>
           <Route path='/store'>
 
             <StoreHeader />
 
-            <Route path='/store/'>
+            <Route exact path='/store/'>
               <DiscoverPage />
             </Route>
 
             <Route path='/store/browse'>
-              <p>Browse Games</p>
+              <BrowsePage />
             </Route>
 
           </Route>

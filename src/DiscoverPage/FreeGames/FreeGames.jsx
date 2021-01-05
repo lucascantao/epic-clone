@@ -1,7 +1,7 @@
 import React from 'react'
 import FreeGameCard from './FreeGameCard'
 import Redeem from '@material-ui/icons/Redeem'
-import ViewMoreButton from '../ViewMoreButton'
+import ViewMoreButton from '../../MoreButton/ViewMoreButton'
 import './FreeGames.css'
 
 function FreeGames() {

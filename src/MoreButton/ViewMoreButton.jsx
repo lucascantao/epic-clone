@@ -1,10 +1,10 @@
 import React from 'react'
 import './ViewMoreButton.css'
 
-function ViewMoreButton() {
+function ViewMoreButton({func}) {
     return (
         <div>
-            <button className='ViewMoreButton'>view more</button>
+            <button className='ViewMoreButton'>{func === undefined ? 'view' : func} more</button>
         </div>
     )
 }
