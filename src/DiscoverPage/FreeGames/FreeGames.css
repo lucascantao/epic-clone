@@ -1,0 +1,36 @@
+.FreeGames {
+    background-color: #393939;
+    padding: 36px;
+    margin: 80px 0 0;
+    border-radius: 8px;
+}
+
+.FreeGames-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    color: #ddd;
+}
+
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle h1 {
+    font-weight: 600;
+}
+
+.headerTitle .RedeemIcon{
+    margin-right: 12px;
+    font-size: 38px;
+}
+
+.FreeGames .gamesContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

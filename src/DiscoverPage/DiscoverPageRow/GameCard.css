@@ -1,0 +1,56 @@
+.GameCard {
+    
+    margin: 0 6px;
+    margin-bottom: 36px;
+}
+
+.GameCard:hover {
+    cursor: pointer;
+}
+
+.GameCard-Thumb::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    transition: all .1s;
+}
+
+.GameCard-Thumb:hover::after {
+    cursor: pointer;
+    background-color: #dddddd22;
+    transition: all .1s;
+}
+
+
+.GameCard-Thumb {
+    position: relative;
+    /* background-color: #ddd; */
+    height: 248px;
+    width: 190px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.GameCard-Thumb img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.GameCard-Description {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.GameCard-Description .company {
+    color: #888;
+}
+
+.GameCard-Price {
+    margin-top: 14px;
+    font-size: 18px;
+}

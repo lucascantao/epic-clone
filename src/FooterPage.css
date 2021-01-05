@@ -1,0 +1,70 @@
+.FooterPage {
+    background-color: #222222;
+    padding: 28px 70px;
+    color: #eee;
+}
+
+.FooterPage .contactIcon {
+    font-size: 36px;
+    margin-right: 8px;
+    transition: all .5s;
+}
+
+.FooterPage .footerLink-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #777;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.FooterPage .footerLinks {
+    display: grid;
+    grid-template-columns: 180px 120px 180px;
+    
+}
+
+.FooterPage .madeByEpicGames .footerLinks{
+    display: grid;
+    grid-template-columns: 140px 180px;
+}
+
+.footerLinks p {
+    margin-right: 24px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #515151;
+    margin: 18px 0 36px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #ccc;
+    width: 650px;
+    line-height: 24px;
+}
+
+.FooterPage .bottom {
+    display: flex;
+    font-size: 12px;
+    margin: 36px 0;
+}
+
+.FooterPage .bottom p {
+    margin-right: 22px;
+    transition: all .5s;
+}
+
+.footerLinks p:hover,
+.FooterPage .bottom p:hover,
+.FooterPage .contactIcon:hover {
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+    transition: all .5s;
+}

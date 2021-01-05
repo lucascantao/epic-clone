@@ -1,0 +1,21 @@
+.DiscoverPageRow {
+    margin-top: 48px;
+    color: #ddd;
+}
+
+.DiscoverPageRow .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+.DiscoverPageRow .header p {
+    font-weight: 700;
+}
+
+.DiscoverPageRow .gameList {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,54 @@
+.StoreHeader {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 168px;
+    height: 100px;
+
+    position: fixed;
+    width: 100vw;
+    margin-top: 50px;
+    z-index: 10;
+}
+
+.StoreHeader .tab-links {
+    display: flex;
+    align-items: center;
+}
+
+.StoreHeader .tab-links .tab-link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #aaa;
+
+    margin-right: 24px;
+}
+
+.StoreHeader .tab-links .tab-link:hover {
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+
+.StoreHeader .StoreHeader-input {
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 236px;
+    border-radius: 5px;
+}
+
+.StoreHeader .StoreHeader-input .SearchIcon {
+    color: #bbb;
+    margin: 16px;
+}
+
+.StoreHeader .StoreHeader-input input {
+    background-color: #252525;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #bbb;
+}
