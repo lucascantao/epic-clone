@@ -14,9 +14,9 @@ function NavigationBar() {
                 <div className="NavigationBar-links">
                     <NavigationLink selected title='Store' path='/store'/>
                     <NavigationLink title='News' path='/news' />
-                    <NavigationLink title='FAQ' path='/store' />
-                    <NavigationLink title='Help' path='/store' />
-                    <NavigationLink title='Unreal Engine' path='/store' />
+                    <NavigationLink title='FAQ' path='#' />
+                    <NavigationLink title='Help' path='#' />
+                    <NavigationLink title='Unreal Engine' path='#' />
                 </div>
             </div>
 

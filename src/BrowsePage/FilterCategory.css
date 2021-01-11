@@ -4,7 +4,7 @@
 }
 
 .FilterCategory button > p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .FilterCategory button {
@@ -15,12 +15,13 @@
     width: 236px;
     background-color: #1a1a1a;
     border: none;
-    outline: none;
+    /* outline: 1px solid #444; */
+    /* outline-color: #444; */
     color: #aaa;
     justify-content: space-between;
-    font-size: 15px;
+    /* font-size: 14px; */
     font-weight: 600;
-    margin-top: 6;
+    /* margin-top: 6; */
 }
 
 .FilterCategory .category {

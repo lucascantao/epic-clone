@@ -6,6 +6,7 @@ import DiscoverPage from './DiscoverPage/DiscoverPage.jsx'
 import FooterPage from './FooterPage'
 import HomePage from './HomePage/HomePage'
 import BrowsePage from './BrowsePage/BrowsePage'
+import NewsPage from './NewsPage/NewsPage'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -33,7 +34,7 @@ function App() {
           </Route>
 
           <Route path='/news'>
-            <p>News</p>
+            <NewsPage />
           </Route>
 
         </Switch>

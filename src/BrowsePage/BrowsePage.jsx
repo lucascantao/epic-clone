@@ -49,11 +49,17 @@ function BrowsePage() {
             </div>
             <div className="BrowseFilters">
                 <p>Filters</p>
+                <hr/>
                 <FilterCategory title='Events' categories={['Holiday Sale 2020']} />
+                <hr/>
                 <FilterCategory title='price' categories={['Free', 'under $40.00','under $60.00', 'under $100.00', ]} />
+                <hr/>
                 <FilterCategory title='Categories' categories={['action', 'adventure', 'indie', 'rpg', 'mmo', 'horror', 'fps']} />
+                <hr/>
                 <FilterCategory title='features' categories={['sigle player', 'control suport', 'multiplayer', 'co-op', 'competitive', 'VR']} />
+                <hr/>
                 <FilterCategory title='platform' categories={['windows', 'mac OS']} />
+                <hr/>
             </div>
         </div>
     )

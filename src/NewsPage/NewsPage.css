@@ -1,0 +1,52 @@
+.NewsPage {
+    padding: 0 168px;
+    padding-top: 87px;
+    background-color: #121212;
+}
+
+.NewsPage > p {
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.NewsPage-Recent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.RecentNews-Card {
+    /* border: 1px solid #111; */
+    width: 497px;
+    color: #fff;
+}
+
+.RecentNews-Card-Thumb {
+    height: 287px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.RecentNews-Card-Thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.RecentNews-Card .timestamp {
+    color: #999;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.RecentNews-Card .description {
+    font-size: 13px;
+}
+
+.RecentNews-Card .linkButton {
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
