@@ -34,18 +34,18 @@
     border-radius: 5px;
 }
 
-.RecentNews-Card .timestamp {
+.timestamp {
     color: #999;
     font-size: 11px;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.RecentNews-Card .description {
+.description {
     font-size: 13px;
 }
 
-.RecentNews-Card .linkButton {
+.linkButton {
     font-size: 14px;
     text-decoration: underline;
     margin: 10px 0;

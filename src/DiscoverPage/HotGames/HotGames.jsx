@@ -67,7 +67,7 @@ function HotGames() {
                 </div>
                 <div className="gameList">
                     {Hot_Games.map((game, index) => {
-                        return <ListThumb changeBanner={changeBanner} title={game.name} img={game.smallThumb} />
+                        return <ListThumb key={index} changeBanner={changeBanner} title={game.name} img={game.smallThumb} />
                     })}
                 </div>
             </div>

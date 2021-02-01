@@ -14,7 +14,7 @@ function DiscoverPageRow({title, gameList}) {
             </div>
 
             <div className="gameList">
-                {gameList.map(game => { return <GameCard title={game.title} price={game.price} thumb={game.thumb} company={game.company} /> })}
+                {gameList.map((game, index) => { return <GameCard key={index} title={game.title} price={game.price} thumb={game.thumb} company={game.company} /> })}
             </div>
         </div>
     )
