@@ -12,26 +12,35 @@
     z-index: 10;
 }
 
-.StoreHeader .tab-links {
+.tab-links {
     display: flex;
     align-items: center;
 }
 
-.StoreHeader .tab-links .tab-link{
+.tab-link{
     text-decoration: none;
     font-size: 14px;
     color: #aaa;
+    font-weight: 600;
 
-    margin-right: 24px;
+    margin-right: 36px;
+
+    transition: all .1s;
 }
 
-.StoreHeader .tab-links .tab-link:hover {
-    font-weight: 500;
-    font-size: 15px;
+.tab-link+.tab-link {
+    border-left: 1px solid #aaa;
+    padding-left: 36px;
+}
+
+.tab-link:hover {
+    font-weight: 600;
     color: white;
+
+    transition: all .1s;
 }
 
-.StoreHeader .StoreHeader-input {
+.StoreHeader-input {
     background-color: #252525;
     display: flex;
     align-items: center;
@@ -40,12 +49,12 @@
     border-radius: 5px;
 }
 
-.StoreHeader .StoreHeader-input .SearchIcon {
+.SearchIcon {
     color: #bbb;
     margin: 16px;
 }
 
-.StoreHeader .StoreHeader-input input {
+.StoreHeader-input input {
     background-color: #252525;
     border: none;
     outline: none;

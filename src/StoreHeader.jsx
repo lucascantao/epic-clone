@@ -7,8 +7,9 @@ function StoreHeader() {
     return (
         <div className='StoreHeader'>
             <div className="tab-links">
-                <Link className='tab-link' to='/store/'><p>Discover</p></Link>
+                <Link className='tab-link' to='/store/'> <p>Discover</p></Link>
                 <Link className='tab-link' to='/store/browse'><p>Browse</p></Link>
+                <Link className='tab-link' to='/store/wishlist'><p>Wish List</p></Link>
 
             </div>
             <div className="StoreHeader-input">

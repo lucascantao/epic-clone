@@ -38,6 +38,24 @@
     width: 175px;
 }
 
+.favorite-icon {
+
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    z-index: 10;
+
+    border-radius: 3px;
+
+    /* background-color: #55555555; */
+    color: #aaa;
+    /* border: 1px solid #ffffff00 */
+}
+
+.favorite-icon:hover {
+    color: white;
+}
+
 .GameCard-Thumb img {
     height: 100%;
     width: 100%;
@@ -46,6 +64,7 @@
 }
 
 .GameCard-Description {
+    position: relative;
     font-size: 14px;
     font-weight: 600;
 }
